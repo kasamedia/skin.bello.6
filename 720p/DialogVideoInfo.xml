@@ -955,6 +955,15 @@
 					<onclick condition="!String.IsEmpty(ListItem.Trailer)">AlarmClock(PlayTrailer,PlayMedia($INFO[ListItem.Trailer]),00:01,silent)</onclick>
 					<visible>!String.IsEmpty(ListItem.Trailer)</visible>
 				</control>
+				<control type="togglebutton" id="9146">
+					<description>Special Features button</description>
+					<label>$LOCALIZE[31434]</label>
+					<include>TopMenuButton</include>
+					<onclick>Action(close)</onclick>
+					<onclick>RunScript(plugin.video.specialfeatures,listitem)</onclick>
+					<visible>System.HasAddon(plugin.video.specialfeatures)</visible>
+					<visible>String.IsEqual(Window(home).Property(SpecialFeatures.Visible),true)</visible>
+				</control>
 				<control type="button" id="86">
 					<description>Videos</description>
 					<label>$LOCALIZE[3]</label>

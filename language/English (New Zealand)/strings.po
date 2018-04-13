@@ -723,3 +723,7 @@ msgstr "Configure Profiles Settings"
 msgctxt "#31420"
 msgid "Configure Skin Settings"
 msgstr "Configure Skin Settings"
+
+msgctxt "#31434"
+msgid "Special Features"
+msgstr ""

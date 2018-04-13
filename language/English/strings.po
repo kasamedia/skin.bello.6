@@ -1086,3 +1086,7 @@ msgstr ""
 msgctxt "#31433"
 msgid "All Skin Settings will revert back to their default state.[CR]Are you sure you want to proceed ?"
 msgstr ""
+
+msgctxt "#31434"
+msgid "Special Features"
+msgstr ""

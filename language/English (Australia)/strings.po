@@ -875,3 +875,7 @@ msgstr "You haven't added any items to Favourites yet.[CR]Highlight an item, and
 msgctxt "#31432"
 msgid "Mouse usage is not supported.[CR]Please disable it from Settings>System>Input Devices>[CR]\"Enable mouse and Touch Screen support\"."
 msgstr "Mouse usage is not supported.[CR]Please disable it from Settings>System>Input Devices>[CR]\"Enable mouse and Touch Screen support\"."
+
+msgctxt "#31434"
+msgid "Special Features"
+msgstr ""
